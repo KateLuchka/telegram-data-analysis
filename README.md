@@ -32,3 +32,17 @@ To do research were used (imported):
 Jupyter-notebook is the way you can view our analysis of your data.
 
 To get the results of analysis (including dataframes and visual part of research) you need to run all cells in order. (Some steps may need time to be completed)
+## How to reuse code
+For lemmatizing use:
+
+    langdata = simplemma.load_data('uk')
+    def preprocess_text(text)
+For calculating sentiment use:
+
+    def calculate_msg_sentiment(msg)
+    def add_dialog_sentiment(data)
+    def calculate_avg_subdialog_sentiment(data)
+For visualisation of sentiment use:
+
+    def visualize_user_sentiment(sentiment_data, user_id)
+
